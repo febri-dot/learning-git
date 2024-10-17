@@ -1,3 +1,79 @@
-Repository ini digunakan untuk Kelompok 1 belajar git, 
+Repository ini digunakan untuk Kelompok 1 belajar git dan catatan setup project,
+
+//================================================================\\
+|                                                                  |
+|  Jika menemukan kesulitan atau kebingungan silakan tanya         |
+|                                                                  |  
+\\================================================================//
+
+
+Setting Git 
+1. Download git : https://git-scm.com/downloads
+2. Install git 
+3. Buka git bash
+4. Ketikkan : git config --global user.name "username github" | Setting username git
+5. Ketikkan : git config --global user.email "email github" | Setting email git 
+
+
+Git cheatsheet : https://training.github.com/downloads/id/github-git-cheat-sheet/
+
+Clone Repository GitHub ke local
+1. Buka halaman home github Anda 
+2. Pastikan ada project learning-git (Project di github selanjutnya akan disebut sebagai repo/repository)
+3. Klik repo learning-git 
+4. Klik Code yang berwarna hijau, copy link https nya 
+5. Buka file explorer - document 
+6. Klik kanan, pilih git bash here, jika tidak ada pilih show more option terlebih dahulu 
+7. Ketikkan : git clone <link yang Anda copy dari github> (Untuk clonning repo dari github ke local)
+8. Buka file explorer - document, pastikan sudah ada folder learning-git 
+9. Buka folder - buka file learning.txt - pelajari file 
+10. Lakukan tugas 1.1 dan 1.2
+11. Tuliskan nama Anda di tugas 1.3, semua tugas sebelumnya sudah dan folder project HiddenGems sudah ada di laptop Anda
+
+-- Git bekerja mulai darisini : 
+
+Ada 2 cara penggunaan git, malalui terminal dan vscode 
+
+Jika menggunakan terminal :
+12. Kembali ke git bash terminal, pastikan ada di folder learning-git 
+13. Ketikkan : git status | ini untuk melihat file yang status nya changes
+14. Ketikkan : git add .  | ini untuk menaikkan status dari changes ke stage, gunakan . untuk staging semua file, gunakan nama file jika ingin hanya beberapa file saja yang akan di staging
+15. Ketikkan : git commit -m "ini commit message Anda" | isikan bebas, tapi yang menggambarkan Anda habis melakukan perubahan apa
+16. Ketikkan : git push origin <nama branch> | bisa dilihat di sampingnya folder dalam git bash terminal
+
+Jika menggunakan vscode : 
+12. Buka folder learning-git di vscode 
+13. Pada sidemenu vscode, pilih icon source control (ketiga dari atas)
+14. Akan muncul tab changes, pada tab changes, arahkan kursor ke file, akan muncul tanda +, klik tanda +, file akan pindah status ke stage file
+15. Isikan commit message pada kolom input atas sendiri (isikan bebas, tapi yang menggambarkan Anda habis melakukan perubahan apa), klik tombol commit 
+16. Klik sync untuk push perubahan ke github
+
+17. Buka repo di github, refresh dan pastikan perubahan Anda sudah terupload
+18. Mission Complete!!
+
+
+Tugas 1.1 
+Website yang akan dibuat akan menggunakan multilanguage maka silakan install laragon untuk web server Anda
+1. Kunjungi website : https://laragon.org/download/
+2. download dan install 
+4. Jalankan aplikasinya
+5. Klik start 
+
+Selamat Laptop Anda sudah memiliki web server!!
+
+
+Tugas 1.2 
+Clone Repository HiddenGems untuk persiapan coding 
+1. Buka halaman github Anda 
+2. Pastikan sudah ada repo HiddenGems, klik repo dan copy code https seperti diatas
+3. Buka file explorer - cari folder laragon - cari folder www (semua project laragon harus disimpan di folder www untuk bisa diakses oleh browser)
+4. Clone repository
+5. Masuk ke folder HiddenGems dengan git bash terminal, ketikkan : cd HiddenGems
+6. Buka vscode dengan git bash terminal, ketikkan : code .
+7. Folder sudah otomatis kebuka di VSCode
+8. Happy Coding!!
+
+
+Tugas 1.3
 Yang sudah memperlajari git : 
 1. Febri
