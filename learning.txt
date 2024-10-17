@@ -1,0 +1,3 @@
+Repository ini digunakan untuk Kelompok 1 belajar git, 
+Yang sudah memperlajari git : 
+1. Febri
