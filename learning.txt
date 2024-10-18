@@ -77,3 +77,4 @@ Clone Repository HiddenGems untuk persiapan coding
 Tugas 1.3
 Yang sudah memperlajari git : 
 1. Febri
+2. Arya
